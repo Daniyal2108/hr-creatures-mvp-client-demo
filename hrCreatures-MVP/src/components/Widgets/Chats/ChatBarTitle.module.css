@@ -1,0 +1,45 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h3{
+    color: #2164F4;
+    font-family: Gilroy-Medium;
+    font-size: 1.2vw;
+}
+
+.horizontalLine1 {
+    border: none;
+    width: 49%;
+    height: 0.5vh;
+    border-radius: 6vw;
+    background-color: #2164F4;
+    z-index: 9;
+}
+
+.horizontalLine2 {
+    background-color: rgba(128, 128, 128, 0.514);
+    border: none;
+    height: 0.3vh;
+    width: 93%;
+    margin-top: -0.10vh;
+}
+
+/* --------------------------  MEDIA QUERY  ----------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+    .title h3 {
+        font-size: 3.5vw;
+    }
+    
+    .horizontalLine1 {
+        width: 30%;
+    }
+
+    .horizontalLine2 {
+        height: 0.2vh;
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+.text {
+    width: 80%;
+    margin-top: 0.5vw;
+}
+
+.text small {
+    font-size: 1vw;
+}
+
+.text > div {
+    display: flex;
+}
+
+.text > div p {
+    width: max-content;
+    background-color: #DDDDDD;
+    padding: 1vh 4vw 1vh 1vw;
+    color: #0A0818;
+    font-family: Gilroy-Medium;
+    font-size: 0.9vw;
+    border-radius: 0.8vw;
+    margin-top: 0.4vw;
+}
+
+.text > div span {
+    width: max-content;
+    color: #006EFD;
+    margin: auto 0.5vw;
+    font-family: Poppins-SemiBold;
+    font-size: 0.8vw;
+}
+
+/* --------------------------  MEDIA QUERY  ----------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+    .text {
+        width: 90%;
+    }
+
+    .text small {
+        font-size: 3vw;
+    }
+ 
+    .text > div p {
+        font-size: 3vw !important;
+        padding: 1vh 2vw 1vh 1vw;
+    }
+    
+    .text > div span {
+        font-size: 2.5vw;
+        margin: auto 1vw;
+    }
+}

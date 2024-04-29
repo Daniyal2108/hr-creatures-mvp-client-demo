@@ -1,0 +1,31 @@
+.homeSection {
+    height: 100%;
+    width: 85%;
+    position: relative;
+    background: #DDDDDD 0% 0% no-repeat padding-box;
+    background-image: url("../../images/CreatureLogo.png");
+    background-size: 30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-out;
+}
+
+
+/* --------------------------------MOBILE VIEW---------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+
+.homeSection {
+    width: 100%;
+    height: auto;
+    position: unset;
+}
+
+.homeSection.hide {
+    opacity: 0;
+    height: 10px;
+    overflow: hidden;
+    /* display: none; */
+}
+        
+}

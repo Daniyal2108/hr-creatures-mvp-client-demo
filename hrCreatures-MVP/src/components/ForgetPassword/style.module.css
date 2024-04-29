@@ -1,0 +1,196 @@
+.background {
+    background-color: #F5F5FF;
+}
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0.6944444444444444vw 1.3888888888888888vw 2.0833333333333335vw #00000029;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 3vw;
+    border: 0.5vw solid #3953A4;
+    padding: 2vw;
+}
+
+.creature {
+    width: 10vw;
+}
+
+.forgetPassForm {
+    height: 50%;
+    margin: auto;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form label {
+    font-size: 1.2vw;
+    border-radius: 2vw;
+    padding: .2vw 1vw;
+}
+
+.input {
+    box-shadow: 0.6944444444444444vw 1.3888888888888888vw 2.0833333333333335vw #00000029;
+    /* margin: 1vh auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    padding: .5vw;
+    width: 100%;
+    height: 3.5vh;
+}
+
+.input input {
+    width: 100%;
+    height: 2vh;
+    font-size: 1vw;
+    font-family: Gilroy-Bold;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input svg {
+    font-size: 1.5vw;
+    color: #393939;
+}
+
+.invalid {
+    border: solid .2vw red;
+}
+
+.errorText {
+    color: red; 
+    font-size: 1vw;
+}
+
+.form button {
+    color: #FFFFFF;
+    font-family: Gilroy-Bold;
+    background-color: #0A0818;
+    font-size: 1.2vw;
+}
+
+.modal {
+    border: solid #3953A4 0.5vw;
+    height: 32vh;
+    width: 25vw;
+}
+
+.modal svg {
+    color: white;
+    background: #3953A4!important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 50%;
+    padding: 0.5vw;
+    font-size: 2.5vw;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.modal p {
+    color: #262626;
+    font-family: Poppins-SemiBold;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.modal button {
+    color: #FFFFFF;
+    font-family: Gilroy-Bold;
+    background-color: #0A0818;
+    font-size: 1.2vw;
+    width: max-content;
+    padding: .2vw 1vw;
+    border-radius: 2vw;
+    position: absolute;
+    margin: auto;
+    margin-top: 1vh;
+    left: 0;
+    right: 0;
+
+}
+
+.creatureAnimate {
+    margin-top: 4vh;
+    width: 10vw;
+    animation-name: creatureanimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes creatureanimate {
+    0% {transform: translateY(0);}
+    50% { transform: translateY(-4vh);}
+    100% { transform: translateY(0);}
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 2vw;
+    font-family: Gilroy-Bold;
+    color: #262626;
+    opacity: 0;
+    transition: all 2s ease-out;
+}
+
+.heading2.heading2Transition {
+    opacity: 1;
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: Gilroy-Bold;
+    color: #262626;
+    opacity: 0;
+    transition: all 2s ease-out;
+}
+
+.heading3.heading3Transition {
+    opacity: 1;
+}
+
+.sendBtn {
+    color: #FFFFFF;
+    font-family: Gilroy-Bold;
+    background-color: #0A0818;
+    border-radius: 2vw;
+    padding: 1vh 1vw;
+    font-size: 1.2vw;
+    width: 5vw;
+    margin-left: 30%;
+    margin-top: 1vh;
+    height: 5vh;
+}
+
+.inputLabel {
+    color: #262626;
+    font-family: Gilroy-Bold;
+    font-size: 1.2vw;
+}
+
+.errorMsg {
+    color: red;
+    font-family: Gilroy-Bold;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}

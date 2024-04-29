@@ -1,0 +1,547 @@
+.homeSection {
+    width: 100% !important;
+    background-color: #F5F5FF !important;
+    height: 100% !important;
+    overflow: auto !important;
+}
+
+.homeSection::-webkit-scrollbar {
+    display: none;
+}
+  
+  .content {
+    width: 95%;
+    height: 95%;
+    overflow: auto;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border-radius: 2vw;
+    padding: 2vw;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0.6944444444444444vw 1.3888888888888888vw 2.0833333333333335vw #00000029;
+  }
+  
+  .modules {
+    width: 100%;
+    padding: 0 1vw;
+  }
+  
+  .searchBar {
+    height: 8%;
+    border: solid 0.05vw #afafaf;
+    border-radius: 2vw;
+    padding: 0 1vw;
+  }
+  
+  .searchBar input {
+    width: 95%;
+    border: none;
+    outline: none;
+    color: #afafaf;
+    font-size: 1.5vw;
+    font-family: Gilroy-Normal;
+    background-color: transparent;
+  }
+  
+  .searchBar input:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .searchBar svg {
+    font-size: 1.5vw;
+    color: #afafaf;
+  }
+  
+  .hrSystemContainer h1 {
+    font-family: Gilroy-Bold;
+    font-size: 1.5vw;
+  }
+  
+  .hrSystemContainer p {
+    font-family: Gilroy-SemiBold;
+    font-size: 1vw;
+    opacity: 0.79;
+    width: 35vw;
+  }
+  
+  .hrSystemContainer button {
+    margin-top: 1vh;
+    font-family: Gilroy-Light;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    width: max-content;
+    border: solid 1px #ffffff;
+    border-radius: 3vw;
+    transition: all 1s ease-out;
+  }
+  
+  .hrSystemContainer button:hover {
+    background-color: white;
+  }
+  
+  .hrSystemContainer button:hover p {
+    color: black;
+  }
+  
+  .hrSystemContainer button:hover svg {
+    color: white;
+    background-color: #e639bd;
+    border-radius: 50%;
+  }
+  
+  .hrSystemContainer button:hover svg:nth-last-child(1) {
+    color: black;
+    background-color: white;
+  }
+  
+  .hrSystemContainer button p {
+    display: inline;
+    width: max-content;
+    margin: 0 0.4vw;
+    opacity: 1;
+    font-size: 1vw;
+  }
+  
+  .hrSystemContainer button svg:nth-child(1) {
+    font-size: 4vh;
+    margin-left: -1vw;
+  }
+  
+  .hrSystemContainer img {
+    position: absolute;
+    right: 2vw;
+    top: -5vh;
+    width: 10vw;
+  }
+  
+  .dashboardContentContainer {
+    width: 80%;
+    height: 100% !important;
+    margin: auto;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .dashboardContentContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .progressBox {
+    margin: 3vh;
+    width: 40% !important;
+    height: auto !important;
+    padding: 2vw !important;
+    border-radius: 2vw;
+    border: solid 0.3vw #3953A4;
+  }
+  
+  .progressBox > h3 {
+    font-family: Gilroy-Bold !important;
+    font-size: 1.2vw !important;
+    text-align: center;
+    color: black;
+  }
+  
+  .progressBox:hover {
+    background-color: #18A84A;
+  }
+  
+  .progressBox:hover > h3 {
+    color: #ffffff;
+  }
+  
+  .events {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .eventHeading {
+    color: #37353C;
+    font-family: Gilroy-Bold;
+    text-shadow: 1.3888888888888888vw 2.4305555555555554vw 8.333333333333334vw #0000001A;
+    margin-bottom: 0.7vh;
+  }
+  
+  .noteHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3vh 0;
+  }
+  
+  .noteHeader h3 {
+    font-family: "Gilroy-Medium";
+    font-size: 2.2vh;
+    font-weight: bold;
+  }
+  
+  .noteHeader .noteHeaderLink {
+    font-family: "Gilroy-Medium";
+    font-size: 1.5vh;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .note {
+    /* width: 20vw; */
+    width: 20vw !important;
+    /* height: 18vh; */
+    height: 18vh !important;
+  }
+  
+  .events > section {
+    width: 80%;
+  } 
+  
+  .source {
+    color: #37353C;
+    font-family: Gilroy-Bold;
+    text-shadow: 1.3888888888888888vw 2.4305555555555554vw 8.333333333333334vw #0000001A;
+  }
+
+  .content > h3 {
+    color: #0A0818;
+    font-size: 2vw;
+    font-family: Poppins-SemiBold;
+  }
+
+  .formControl {
+    display: flex;
+    flex-direction: column;
+    margin: 1vh 1vw;
+  }
+
+  .formControlCheckbox {
+    margin: 1.5vh 0;
+    display: flex;
+    flex-direction: row-reverse;
+    width: max-content;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .formControlCheckbox > div {
+    margin: 0 1vw;
+  }
+
+  .formControlCheckbox > div input {
+    width: 1vw;
+    height: 1vw;
+  }
+
+  .formControl > label, .formControlCheckbox > label {
+    color: #262626;
+    font-size: 1vw;
+    font-family: Poppins-SemiBold;
+    margin: .2vh 0;
+  } 
+
+  .input {
+    color: #0A0818;
+    font-family: Poppins-Medium;
+    font-size: 0.8vw;
+    background-color: #FFFFFF;
+    border: solid .1vw #707070;
+    border-radius: .5vw;
+    width: 22vw;
+    height: max-content;
+    padding: .5vw;
+  }
+
+  .input input {
+    width: 100%;
+  }
+
+  .input input:focus {
+    outline: none;
+  }
+
+  .paramHeading {
+    color: #262626;
+    font-family: Poppins-SemiBold;
+    font-size: 1.3vw;
+    margin-top: 2vh;
+  }
+
+  .btn {
+    background-color: #18A84A;
+    border-radius: 2vw;
+    padding: .5vw 1vw;
+    font-size: 1vw;
+    font-family: Poppins-SemiBold;
+    color: white;
+    position: absolute;
+    right: 2vw;
+    top: 4vh;
+  }
+
+  .form {
+    width: 80%;
+    overflow: auto;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .form::-webkit-scrollbar {
+    width: 10vw;
+    height: 1vh;
+  }
+
+  .form::-webkit-scrollbar-thumb {
+    background: #7ECE9A;
+    border-radius: 3vw;
+  }
+
+  .form::-webkit-scrollbar-thumb:hover {
+    background: #18A84A;
+  }
+
+  .modal {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    width: 80%;
+    box-shadow: 0.6944444444444444vw 1.3888888888888888vw 2.0833333333333335vw #00000029;
+    background: rgba(0, 0, 0, 0.089) 0% 0% no-repeat padding-box;
+    backdrop-filter: blur(0.9027777777777778vw);
+    -webkit-backdrop-filter: blur(0.9027777777777778vw);
+}
+
+.quillContainer {
+  margin-top: 2vh;
+  background-color: #FFFFFF;
+  padding: 1vw;
+  box-shadow: 0px 20px 30px rgba(128, 128, 128, 0.205);
+  height: 45vh;
+}
+
+.jobDescription h1, .jobDescription h2, .jobDescription h3, .jobDescription h4 {
+  margin: 1vh 0;
+} 
+
+.jobDescription h1, .jobDescription h3 {
+  color: #262626;
+  font-family: Poppins-SemiBold;
+}
+
+.jobDescription h1 {
+  font-size: 1.6vw;
+}
+
+.jobDescription h3 {
+  font-size: 1.5vw;
+}
+
+.jobDescription h4 {
+  color: #0A0818;
+  font-family: Poppins-Medium;
+  font-size: 1.5vw;
+}
+
+.jobDescription h2 {
+  color: #0A0818;
+  font-family: Poppins-SemiBold;
+  font-size: 1.5vw;
+}
+
+.saveBtn {
+  background-color: #18A84A;
+  color: white;
+  border-radius: 2vw;
+  font-size: 1vw;
+  padding: .2vw 2vw;
+  font-family: Poppins-SemiBold;
+  position: absolute;
+  right: 8vw;
+  bottom: 8vh;
+}
+
+.addDescriptionBtn {
+  background-color: #2164F4;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fileInput {
+    color: #0A0818;
+    font-family: Poppins-Medium;
+    font-size: 0.8vw;
+    background-color: #FFFFFF;
+    border: solid .1vw #707070;
+    border-radius: .5vw;
+    width: 22vw;
+    height: 4vh;
+    padding: .5vw;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.fileInput > div p {
+    
+    color: #0A0818;
+    padding: 1vw;
+}
+
+.fileInput > h3 svg {
+    color: grey;
+    font-size: 1vw;
+}
+
+.fileInput {
+    opacity: 0;
+    z-index: 5;
+}
+
+.addFieldsBtn {
+    background-color: #2164F4;
+    color: white;
+    font-family: Gilroy-SemiBold;
+    font-size: 1vw;
+    padding: .5vw 1vw;
+    border-radius: 2vw;
+    width: 8vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+}
+
+.errorMsg {
+  color: red;
+  font-size: 1.5vw;
+  font-family: Poppins-Medium;
+  text-align: center;
+}
+
+.invalidInput {
+  border: solid .2vw red !important;
+}
+
+.fileInputTag {
+  z-index: 1;
+  opacity: 0;
+  font-family: Poppins-Medium;
+  font-size: 0.8vw;
+  border: solid .1vw #707070;
+  width: 22vw;
+  height: max-content;
+  padding: .5vw;
+  cursor: pointer;
+}
+
+.fileInput {
+  opacity: 1;
+  color: #707070;
+  font-family: Poppins-Medium;
+  font-size: 1vw;
+  background-color: #18A84A !important;
+  border: solid .1vw #707070;
+  border-radius: .5vw;
+  width: 22vw;
+  height: 4.5vh !important;
+  position: absolute;
+  padding: 0.7vh .5vw;
+  top: 2.3vh;
+  left: 1vw;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.fileInput > div p {
+  cursor: pointer !important;
+  color: white !important;
+  font-family: Poppins-Medium;
+  font-size: 0.8vw !important;
+}
+
+.fileInput > h3 {
+  cursor: pointer;
+  background-color: transparent !important;
+  padding: 0;
+}
+
+.fileInput > h3 svg {
+  color: white !important;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.title {
+  color: #262626;
+  font-family: Poppins-SemiBold;
+  font-size: 2.1vw;
+  margin-left: 1vw;
+}
+
+.loader {
+  z-index: 9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.modal {
+  border: solid #3953A4 0.5vw;
+  height: 30vh;
+  width: 25vw;
+}
+
+.modal svg {
+  color: white;
+  background: #3953A4!important;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 50%;
+  padding: 0.5vw;
+  font-size: 2.5vw;
+  margin: auto;
+  margin-bottom: 2vh;
+}
+
+.modal p {
+  color: #262626;
+  font-family: Poppins-SemiBold;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.modal button {
+  color: #FFFFFF;
+  font-family: Gilroy-Bold;
+  background-color: #0A0818;
+  font-size: 1.2vw;
+  width: max-content;
+  padding: .2vw 1vw;
+  border-radius: 2vw;
+  position: absolute;
+  margin: auto;
+  margin-top: 1vh;
+  left: 0;
+  right: 0;
+}
+
+.skillsAdded > div {
+  border: solid .2vw red !important;
+}

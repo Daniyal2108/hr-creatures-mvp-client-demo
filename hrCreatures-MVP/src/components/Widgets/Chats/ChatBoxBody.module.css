@@ -1,0 +1,25 @@
+.chatBody {
+    height: 75%;
+    overflow: auto;
+    padding-bottom: 1vw;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.486);
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.chatBody::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* --------------------------  MEDIA QUERY  ----------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+
+    .chatBody {
+        height: 57vh;
+        /* justify-content: flex-end; */
+    }
+
+}

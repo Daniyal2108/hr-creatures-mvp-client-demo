@@ -1,0 +1,565 @@
+.login-bg {
+    /* background-image: url("../../images/LoginPage/Mask\ Group\ 3.png"); */
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: width 2s ease-in-out;
+    overflow: hidden;
+}
+
+.bgImg {
+    /* transition: width 10s ease-in-out; */
+    height: 100%;
+    animation-name: backgroundimg;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+
+@keyframes backgroundimg {
+    0%   {transform: rotate(0);}
+    100% {transform: rotate(-180deg);}
+}
+
+.bgImgRotate {
+    transform: scale(1.8) rotate(-180deg);
+    height: 100%;
+}
+
+.login-bg.login-bgTransition {
+    width: 50%;
+    background-color: rgba(245, 245, 245, 0.445);
+    backdrop-filter: blur(0.9027777777777778vw);
+    -webkit-backdrop-filter: blur(0.9027777777777778vw);
+}
+
+.employeeHeading, .loginHeading, .employeeHeadingInvisible {
+    font-family: Gilroy-Bold;
+    color: black;
+} 
+
+.employeeHeadingTransition {
+    transition: transform 1s ease-out;
+    transform: translateY(7vh);
+}
+
+.employeeHeading, .employeeHeadingInvisible {
+    font-size: 2vw;
+    margin-top: -7vh;
+    color: #18A84A;
+}
+
+.creaturesHeading {
+    font-size: 3.5vw;
+    font-family: Gilroy-Bold;
+    color: #18A84A;
+}
+
+.employeeHeadingInvisible {
+    visibility: hidden;
+}
+
+.loginHeading {
+    font-size: 3vw;
+}
+
+.inputLabel {
+    font-family: Gilroy-Regular;
+    position: absolute;
+    font-size: 1vw;
+    top: -2.5vh;
+    left: 1vw;
+    z-index: 1;
+    color: white;
+    background: transparent linear-gradient(91deg, #1CA348 0%, #39509A 100%) 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    padding: 0.1rem 0.8rem;
+    opacity: 1;
+}
+
+.loginInput {
+    background: transparent !important;
+    border-radius: 10vw;
+    height: 3vh;
+    opacity: 1;
+    width: 100%;
+    font-size: 1.2vw;
+    font-family: Gilroy-Bold;
+}
+
+.loginInput:focus, .loginInput:active {
+    background-color: white ;
+    border: none ;
+    outline: none;
+}
+
+.loginInput:-internal-autofill-selected {
+    appearance: unset;
+    color: none !important;
+    background-color: transparent !important;
+}
+
+.checkbox {
+    appearance: unset;
+    border: solid 1px #E639BD !important;
+    width: 1.1vw;
+    height: 2vh;
+    color: white;
+    border-radius: 30%;
+}
+
+.checkbox:checked {
+    background-color: #2164F4;
+}
+
+.input {
+    display: flex;
+    background: #fff;
+    box-shadow: 0.6944444444444444vw 1.3888888888888888vw 2.0833333333333335vw #00000029;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    opacity: 1;
+    border-radius: 40px;
+    align-items: center;
+    padding: 3% 6%;
+}
+
+.input > input {
+    height: max-content;
+}
+
+.input.invalid {
+    border: 2px solid red;
+    color: red;
+}
+
+.login-bg > div {
+    border-radius: 4.1vw;
+    height: 80%;
+    width: 66.66%;
+    padding: 10vh 2.8vw;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 0.5vw solid #3953A4;
+    box-shadow: 0.6944444444444444vw 1.3888888888888888vw 2.0833333333333335vw #00000029;
+}
+
+.login-bg > div::-webkit-scrollbar {
+    display: none;
+}
+
+.logo {
+    width: 30%;
+    animation: logo 2s linear;
+    z-index: 12 !important;
+}
+
+@keyframes logo {
+    from {opacity: 0;}
+    to {opacity: 1; }
+  }
+
+.login-bg img {
+    transition: all 1s ease;
+}
+
+.loginViewCardTransition {
+    margin-top: -60%;
+    opacity: 0;
+}
+
+.creatureHide {
+    display: none;
+}
+
+.loginSideView {
+    overflow: hidden;
+    flex-grow: 1;
+    animation-name: loginright;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+}
+
+@keyframes loginright {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.loginSideViewContent {
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    padding: 2vw;
+    opacity: 0;
+    z-index: 1;
+    transition: all 2s ease-in-out 1s;
+}
+
+.loginSideViewContentTransition {
+    opacity: 1;
+}
+
+.loginSideViewContent h1 {
+    font-size: 2vw;
+    line-height: 6vh;
+    margin-bottom: 3vh;
+}
+
+.loginSideViewContent h1 span:nth-child(2) {
+    font-family: Gilroy-Bold;
+}
+
+.loginSideViewContent h1 > span {
+    font-family: Gilroy-Regular;
+    
+}
+
+.loginSideViewContent p {
+    font-family: Gilroy-SemiBold;
+    cursor: pointer;
+    font-size: 1vw;
+    padding-bottom: 2vh;
+}
+
+.socialIcons a {
+    width: 1vw;
+    margin: 0 auto;
+}
+
+.socialIcons a svg {
+    width: 1vw;
+    font-size: 1vw;
+}
+
+.sidePower {
+    background: #0A0818 0% 0% no-repeat padding-box;
+    opacity: 0.7;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.sidePower svg {
+    font-size: 2vw;
+}
+
+.form {
+    padding-top: 3vh;
+    overflow: auto;
+}
+
+.form::-webkit-scrollbar {
+    display: none;
+}
+
+.formContent {
+    animation-name: form;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+}
+
+@keyframes form {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.form > div:first-child > div {
+    margin-bottom: 3.3vh;
+}
+
+.form p {
+    font-family: Gilroy-Medium;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+.form label:nth-last-child(1) {
+    font-family: Gilroy-Medium;
+}
+
+.form button {
+    font-family: Gilroy-Bold;
+    font-size: 1.4vw;
+    margin: 2vh 0 0;
+    padding: 3% 20%;
+}
+
+.passIcon {
+    font-size: 2vw;
+}
+
+.checkboxLabel {
+    font-size: 1vw;
+}
+
+.errorText {
+    color: red;
+    font-size: 1vw;
+}
+
+.signUp {
+    /* position: absolute; */
+    width: max-content;
+    margin: 2vh auto;
+    left: 0;
+    right: 0;
+    bottom: 4vh;
+    right: 3vw;
+}
+
+.signUp p{
+    color: #0A0818;
+    font-family: Gilroy-SemiBold;
+    font-size: 1vw;
+    display: inline;
+    width: max-content;
+    margin: 0 0.3vw;
+}
+
+.signUp span {
+    color: #2164F4;
+    font-family: Gilroy-SemiBold;
+    font-size: 1vw;
+    text-decoration: underline;
+    margin: 0 0.3vw;
+    cursor: pointer;
+}
+
+.firstName, .lastName {
+    width: 48%;
+}
+
+.lastName {
+    margin-left: 4%;
+}
+
+.inputsContainer {
+    margin-top: 2vh;
+}
+
+.signUpContainer {
+    padding: 0;
+    /* height: 50%; */
+    /* overflow: scroll; */
+}
+
+.signUpContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.creatureImg {
+    width: 50%;
+    margin: auto;
+}
+
+.creatureAnimate {
+    animation-name: creatureanimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes creatureanimate {
+    0% {transform: translateY(0);}
+    50% { transform: translateY(-4vh);}
+    100% { transform: translateY(0);}
+}
+
+.bgVideo {
+    max-width: max-content;
+    max-height: max-content;
+    height: 100vh;
+    position: absolute;
+    transform: scale(1.4);
+    bottom: 0;
+    left: -25vw;
+}
+
+.creature {
+    position: absolute;
+    right: -5vw;
+    top: -7vh;
+}
+
+/* --------------------------------MOBILE VIEW---------------------------------------- */
+
+@media only screen and (max-width: 996px) {
+    .bgVideo {
+        width: 200vw;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .login-bg, .loginSideView {
+        width: 100%;
+        flex-grow: 1;
+    }
+
+    .login-bg > div {
+        height: 98%;
+        width: 90%;
+        padding: 5vh 2.8vw;
+    }
+
+    .signUp p, .signUp span {
+        font-size: 3vw !important;
+    }
+
+    .logo {
+        margin-top: 1vw;
+        width: 60%;
+    }
+
+    .login-bg input {
+        font-size: 3.7vw;
+        padding: 0.3vh 0;
+        height: max-content;
+    }
+
+    .login-bg p {
+        font-size: 3vw !important;
+    }
+
+    .login-bg label {
+        font-size: 3vw !important;
+    }
+
+    .login-bg .passIcon {
+        font-size: 7vw;
+    }
+
+    .login-bg button {
+        font-size: 4vw;
+    }
+
+    .login-bg .loginHeading {
+        font-size: 6vw;
+    }
+
+    .login-bg .employeeHeading {
+        font-size: 3.3vw;
+    }
+
+    .sidePower {
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    .sidePower svg {
+        font-size: 6vw !important;
+    }
+
+    .loginSideView h1 {
+        font-size: 8vw;
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer img {
+        width: 100%;
+    }
+
+    .footer > div:last-child {
+        margin-top: 2vh;
+    }
+
+    .footer > div:last-child p {
+        font-size: 6vw !important;
+    }
+
+    .footer > div:last-child svg {
+        width: 5vw !important;
+        font-size: 6vw !important;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .login-bg > div {
+        height: 95%;
+    }
+} 
+
+@media only screen and (max-width: 321px) {
+
+    .signUp p, .signUp span {
+        margin: 0 1vw;
+        font-size: 4vw !important;
+    }
+
+    .logo {
+        width: 65%;
+    }
+
+    .login-bg input {
+        font-size: 5vw ;
+    } 
+
+    .login-bg label, .login-bg p {
+        font-size: 4vw !important;
+    }
+
+    .inputLabel {
+        top: -2.2vh;
+    }
+
+    .login-bg .passIcon {
+        font-size: 8vw;
+    }
+
+    .login-bg .checkbox {
+        width: 2vw;
+        padding-top: 0 !important;
+        display: none;
+    } 
+
+    .login-bg button {
+        font-size: 5.5vw;
+        margin-top: 0.5vh;
+    }
+
+    .login-bg .loginHeading {
+        font-size: 9vw;
+    }
+
+    .loginSideView h1 {
+        font-size: 8vw;
+    }
+}
+
+.error {
+    color: red;
+    font-family: Gilroy-Regular;
+    font-size: 2vw;
+    text-align: center;
+    margin: auto;
+}
+
+.installBtn {
+    font-family: 'Gilroy-Bold';
+    background: #18A84A;
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 7vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1vw;
+    border-radius: 2vw;
+    width: -webkit-max-content;
+    width: max-content;
+ }

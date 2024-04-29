@@ -1,0 +1,74 @@
+/* --------------------------------MOBILE VIEW---------------------------------------- */
+
+.background {
+    background-color: #F5F5FF;
+}
+
+.card {
+    background-color: #FFFFFF;
+    box-shadow: 0.6944444444444444vw 1.3888888888888888vw 2.0833333333333335vw #00000029;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 3vw;
+    border: 0.5vw solid #3953A4;
+    padding: 2vw;
+}
+
+.creatureAnimate {
+    margin-top: 4vh;
+    width: 10vw;
+    animation-name: creatureanimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes creatureanimate {
+    0% {transform: translateY(0);}
+    50% { transform: translateY(-4vh);}
+    100% { transform: translateY(0);}
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 2vw;
+    font-family: Gilroy-Bold;
+    color: #262626;
+    opacity: 0;
+    transition: all 2s ease-out;
+}
+
+.heading2.heading2Transition {
+    opacity: 1;
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: Gilroy-Bold;
+    color: #262626;
+    opacity: 0;
+    transition: all 2s ease-out;
+}
+
+.heading3.heading3Transition {
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+.home {
+    flex-direction: column;
+    justify-content: space-between;
+    height: max-content;
+}
+
+}

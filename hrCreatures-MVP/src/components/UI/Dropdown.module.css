@@ -1,0 +1,26 @@
+.dropdown {
+    color: #262626;
+    font-family: Poppins-Medium;
+    font-size: 1vw;
+    background-color: #FFFFFF;
+    border: solid 1px #F8F8F8;
+    width: 13vw;
+    padding: 1vh 1vw;
+    border-radius: 1vw;
+    cursor: pointer;
+    box-shadow: 10px 20px 30px #00000029;
+}
+
+/* .dropdown:focus {
+    border: none;
+    outline: none;
+} */
+
+.dropdown > option {
+    border: none;
+}
+
+.dropdown > option:focus {
+    border: none;
+    outline: none;
+}

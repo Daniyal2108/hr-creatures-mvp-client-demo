@@ -1,0 +1,55 @@
+.taskBox {
+    margin: 1vw;
+    background-color: #FFFFFF;
+    box-shadow: 20px 20px 60px #00000029;
+    border-radius: 2vw;
+    padding: 1vw 1.5vw;
+}
+
+.task {
+    margin-top: 1vw;
+}
+
+.task h3 {
+    color: #0A0818;
+    font-family: Poppins-Bold;
+    font-size: 0.95vw;
+}
+
+.task p {
+    font-family: Poppins-SemiBold;
+    font-size: 0.8vw;
+}
+
+.taskBox h2 {
+    margin-left: auto;
+    width: max-content;
+    color: white;
+    font-family: Gilroy-Bold;
+    border-radius: 1vw;
+}
+
+/* --------------------------  MEDIA QUERY  ----------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+    
+    .taskBox {
+        margin: 2vw;
+        width: 40%;
+        padding: 2vw 3vw;
+        border-radius: 2vw;
+    }
+    
+    .task h3 {
+        font-size: 3vw;
+    }
+    
+    .task p {
+        font-size: 2.5vw !important;
+    }
+    
+    .taskBox h2  {
+        font-size: 3.5vw;
+    }
+    
+}

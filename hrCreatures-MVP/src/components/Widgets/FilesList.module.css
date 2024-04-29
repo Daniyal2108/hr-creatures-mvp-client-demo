@@ -1,0 +1,59 @@
+.file {
+    width: 14vw;
+    background-color: white;
+    box-shadow: 1vw 1vh 30px #00000029;
+    margin: 0.5vw;
+    padding: .8vw .5vw;
+}
+
+.file h3 {
+    background: #749df738 0% 0% no-repeat padding-box;
+    border-radius: unset;
+    padding: 0.6vw;
+}
+
+.file h3 >svg {
+    font-size: 1.2vw;
+}
+
+.file > div p {
+    font-size: 0.8vw;
+    color: #0A0818;
+    font-family: Poppins-SemiBold;
+}
+
+.file > div small {
+    font-family: Poppins-Regular;
+    
+}
+
+.file > div small span:nth-child(1) {
+    color: #0A0818;
+    font-weight: 700;
+    font-size: 0.55vw;
+}
+
+.file > div small span:nth-child(2) {
+    margin-left: 2vw;
+}
+
+.file > div small span:nth-child(2) b {
+    color: #2164F4;
+    font-family: Poppins-Medium;
+    font-size: 0.8vw;
+    font-weight: 700;
+    margin: 0 0.2vw;
+}
+
+.file > div small span:nth-child(2) b:hover {
+    cursor: pointer;
+}
+
+.files {
+    height: 24vh;
+    overflow-y: auto;
+}
+
+.files::-webkit-scrollbar {
+    display: none;
+}

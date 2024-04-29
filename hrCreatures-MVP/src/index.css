@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./Fonts/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(./Fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url(./Fonts/Gilroy-Light.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url(./Fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url(./Fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url(./Fonts/Gilroy-Black.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Black";
+  src: url(./Fonts/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(./Fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url(./Fonts/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  src: url(./Fonts/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(./Fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(./Fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(./Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url(./Fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Thin";
+  src: url(./Fonts/Poppins-Thin.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: url(./Fonts/Quicksand-Bold.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url(./Fonts/Quicksand-Light.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(./Fonts/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: url(./Fonts/Quicksand-Regular.ttf);
+}
+@font-face {
+  font-family: "Quicksand-SemiBold";
+  src: url(./Fonts/Quicksand-SemiBold.ttf);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.backDrop {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

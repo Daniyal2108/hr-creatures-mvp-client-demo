@@ -1,0 +1,12 @@
+.skeleton h3 {
+    margin: 2vh 0;
+    height: 2.5vh !important;
+}
+
+.skeleton ul li {
+    height: 2.5vh !important;
+}
+
+.skeleton ul, .skeleton ul li:nth-child(2), .skeleton ul li:nth-child(3) {
+    margin-top: 2vh !important;
+}

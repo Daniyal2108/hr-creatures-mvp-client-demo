@@ -1,0 +1,8 @@
+.card {
+    background: #ffffff7c 0% 0% no-repeat padding-box;
+    box-shadow: 0.6944444444444444vw 1.3888888888888888vw 2.0833333333333335vw #00000029;
+    border: solid .4vw #3953A4;
+    backdrop-filter: blur(.5vw) !important;
+    -webkit-backdrop-filter: blur(.5vw) !important;
+    height: max-content;
+}

@@ -1,0 +1,66 @@
+.chatHead {
+    border-radius: 1vw;
+    padding: 1vw;
+    box-sizing: border-box;
+    margin-top: 1.3vh;
+    width: 95%;
+    color: black;
+}
+
+.chatHead h3 {
+    font-family: Gilroy-Bold;
+    font-size: 0.8vw;
+}
+
+.chatHead p {
+    font-family: Gilroy-Regular;
+    font-size: 0.8vw;
+}
+
+.chatHead:hover {
+    cursor: pointer;
+}
+
+.chatHeadActive {
+    border: none;
+    position: relative;
+}
+
+.leftBorder {
+    position: absolute;
+    width: 0.5vw;
+    height: 100%;
+    border-radius: 2vw;
+    top: 0;
+    left: -1.5vw;
+}
+
+.rightBorder {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    right: -0.8vw;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: none;
+    transform: rotate(50deg);
+}
+
+/* --------------------------  MEDIA QUERY  ----------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+    .chatHead {
+        padding: 2.5vw;
+        margin-top: 2vh;
+        width: 98%;
+    }
+
+    .chatHead h3 {
+        font-size: 3.6vw ;
+    }
+
+    .chatHead p {
+        font-size: 3.5vw !important;
+    }
+}

@@ -1,0 +1,63 @@
+/* .months::-webkit-scrollbar {
+  display: none;
+} */
+
+.months {
+  margin: 2vh 0;
+  padding: 1vh 0;
+  color: white;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.months:hover {
+  /* transform: scale(2); */
+}
+
+.months_bar {
+  margin-inline: 0.2vw;
+  font-size: 1.5vh;
+  transition: all 0.2s ease-in-out;
+  padding: 0.5vh 1vh;
+  border-radius: 2vw;
+}
+
+.months_bar:hover {
+  transform: scale(1.25);
+  border-radius: 2vw;
+  background-color: #d3f36b;
+  color: #24282c;
+}
+
+.months_bar_active {
+  background-color: #d3f36b;
+  border-radius: 2vh;
+  padding-inline: 1.5vh;
+  padding-block: 0.5vh;
+  color: black;
+  font-size: 1.5vh;
+  margin-inline: 0.3vw;
+}
+
+.calendar {
+  width: 20vw;
+  height: 45vh;
+  background-color: #24282c;
+  border-radius: 8%;
+  padding: 1vh;
+}
+
+.span {
+  font-size: 1.5vh;
+  margin-inline: 0.3vw;
+}
+
+.filteredSpan {
+  background-color: #d3f36b;
+  border-radius: 2vh;
+  padding-inline: 1.5vh;
+  padding-block: 0.5vh;
+  color: black;
+  font-size: 1.5vh;
+  margin-inline: 0.3vw;
+}

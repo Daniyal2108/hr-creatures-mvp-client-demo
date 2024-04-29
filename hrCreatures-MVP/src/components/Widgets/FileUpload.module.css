@@ -1,0 +1,22 @@
+.uploadFile {
+    z-index: 0;
+    position: absolute;
+    bottom: 25.19vh;
+    display: flex;
+    color: #76757E;
+    font-size: 0.8vw;
+    padding: 0.6vw 0.4vw;
+    font-family: Poppins-Regular;
+    width: 20vw;
+    background-color: #FFFFFF;
+    border: solid 0.1vw #76757E;
+    border-radius: 0.3vw;
+    outline: none;
+}
+
+.uploadFile svg, .uploadFile p {
+    margin: 0 0.2vw;
+    color: #2164F4;
+    font-size: 0.8vw;
+    font-family: Poppins-Regular;
+}

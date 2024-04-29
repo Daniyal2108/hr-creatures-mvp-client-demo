@@ -1,0 +1,25 @@
+.checkboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singleCheckbox {
+  margin-inline: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singleCheckbox label {
+  margin-left: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins-Medium";
+  font-size: 1.7vh;
+}
+.singleCheckbox input {
+  margin-left: 0.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,38 @@
+.header {
+    border-bottom: solid 1px rgba(128, 128, 128, 0.486);
+    padding-bottom: 1vh;
+}
+
+.header > div h2 {
+    color: #0A0818;
+    font-family: Gilroy-SemiBold;
+    font-size: 1.5vw;
+}
+
+.header > div p {
+    color: #707070;
+    font-family: Gilroy-Medium;
+    font-size: 1vw;
+}
+
+.backArrowChatBox {
+    display: none;
+}
+
+/* --------------------------  MEDIA QUERY  ----------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+    
+    .backArrowChatBox {
+        display: inherit;
+    }
+
+    .header > div h2 {
+        font-size: 3.5vw;        
+    }
+
+    .header > div p {
+        font-size: 3vw !important;
+    }
+
+}

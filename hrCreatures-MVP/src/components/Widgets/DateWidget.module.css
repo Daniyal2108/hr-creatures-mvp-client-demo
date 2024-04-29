@@ -1,0 +1,30 @@
+.dash {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.date {
+    border-radius: 5vw !important;
+}
+
+.date input {
+    border-right: solid 1px rgba(128, 128, 128, 0.384) !important;
+}
+
+.date svg {
+    color: #2164F4;
+    border: 2px solid #2164F4;
+}
+
+
+
+/* --------------------------  MEDIA QUERY  ----------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+
+.dash {
+    font-size: 2.5vw;
+    font-weight: 800;
+}
+
+}

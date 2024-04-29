@@ -1,0 +1,65 @@
+.progressRate {
+  /* width: 22%; */
+  width: 18vw;
+  /* height: 18.5vh; */
+  height: 20vh;
+  border-radius: 2vw;
+  /* border-radius: 1vw; */
+  padding: 1vw;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  transition: all 0.5s ease-out;
+}
+
+.progressRate:hover {
+  transform: scale(1.1);
+}
+
+.progressRate h3 {
+  font-family: Gilroy-Medium;
+  font-size: 1.2vw;
+  letter-spacing: 0.1vw;
+}
+
+.progressRate p {
+  font-family: Gilroy-Bold;
+  font-size: 0.8vw;
+  padding: 1.4vh 0.5vw 1.2vh;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 0.8vw;
+  align-self: center;
+  margin-top: 2vh;
+  margin-left: 0.2vw;
+  letter-spacing: 0.1vw;
+}
+
+.progressRate img {
+  width: 12vh;
+}
+
+/* --------------------------  MEDIA QUERY  ----------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+  .progressRate {
+    width: 40%;
+    height: 14vh;
+    margin: 1vw auto;
+  }
+
+  .progressRate h3 {
+    font-size: 3.2vw;
+  }
+
+  .progressRate p {
+    font-size: 2.5vw !important;
+    padding: 0.8vw 0.6vw 0.8vw;
+  }
+
+  .progressRate img {
+    width: 12vw;
+  }
+}

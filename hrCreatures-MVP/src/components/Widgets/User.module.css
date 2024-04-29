@@ -1,0 +1,36 @@
+.user {
+  margin-top: 0.5vw;
+}
+
+.user img {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* .user div {
+  width: 100%;
+} */
+
+.user div p {
+  font-size: 1.25vw;
+  /* color: #2164f4; */
+  font-family: Gilroy-Bold;
+}
+
+.user div small {
+  font-size: 0.6vw;
+  font-family: Gilroy-Medium;
+  color: #0a0818;
+  opacity: 0.68;
+}
+
+/* ------------------------------------  MEDIA QUERY  ---------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+  .user img {
+    width: 5vw;
+    height: 5vw;
+  }
+}

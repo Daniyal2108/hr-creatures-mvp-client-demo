@@ -1,0 +1,54 @@
+.logoutBtn {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 20px 30px #00000029;
+    border-radius: 2vw;
+    opacity: 1;
+    padding: 1vh 1vw;
+}
+
+.logoutImg {
+    transform: rotate(180deg);
+    background: linear-gradient(272deg, #1CA348 0%, #39509A 100%) 0% 0% no-repeat padding-box !important;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.logoutImg svg {
+    margin: auto;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.logoutBtn h3 {
+    font-size: 1.1vw;
+    margin-left: 1.2vw;
+    font-family: Gilroy-Bold;
+}
+
+/* --------------------------------------------  MEDIA QUERY  --------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+    .logoutBtn {
+        justify-content: center;
+    }
+    
+    .logoutImg {
+        width: 8vw;
+        height: 8vw;
+    }
+    
+    .logoutImg svg {
+        font-size: 4vw;
+    }
+    
+    .logoutBtn h3 {
+        font-size: 3.5vw;
+    }
+}
+

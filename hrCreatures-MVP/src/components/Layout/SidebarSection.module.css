@@ -1,0 +1,16 @@
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: relative;
+    background: #7ECE9A 0% 0% no-repeat padding-box;
+    box-shadow: 13px 3px 40px #00000005;
+}
+
+@media only screen and (max-width: 640px) {
+
+.sidebar {
+    width: 100%;
+    height: auto;
+}   
+            
+}

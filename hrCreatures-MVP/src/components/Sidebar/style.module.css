@@ -1,0 +1,424 @@
+.sidebar {
+    height: 100%;
+    width: 15%;
+    position: relative;
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    box-shadow: 0.9027777777777778vw 0.20833333333333334vw 2.7777777777777777vw #00000005;
+}
+
+.sideBarContainer {
+    background: transparent;
+    height: 95%;
+    width: 88%;
+    /* overflow: hidden; */
+}
+
+.toggleContainer {
+    height: inherit;
+}
+
+.linksContainer {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 12vw;
+    margin: auto;
+    /* border-bottom: solid 0.2vh white; */
+    padding-bottom: 1vh;
+}
+
+/* .links {
+    margin-top: 2vw;
+} */
+
+.hamburger {
+    display: none;
+}
+
+.toggleContainer {
+    margin-top: 1.4vw;
+}
+
+.moduleName{
+       width: 90%;
+       margin: auto;
+       border-top: solid 0.1vw white;
+       border-bottom: solid 0.1vw white;
+       padding: 1vh 0;
+}
+
+.moduleName h3 {
+    color: white;
+    font-family: Gilroy-SemiBold;
+    font-size: 1vw;
+}
+
+.moduleName img {
+    width: 1.2vw;
+}
+
+.sidebarDashboardImg {
+    height: 5vh;
+    margin: auto;
+}
+
+.active .sidebarDashboardImg {
+    background: transparent linear-gradient(180deg, #E639BD 0%, #2164F4 100%) 0% 0% no-repeat padding-box;
+}
+
+.pending .sidebarDashboardImg {
+    background: rgba(128, 128, 128, 0.493);
+}
+
+.quickLinkHeading {
+    border-radius: 1vw;
+    padding: 1.6vh 0.7vw;
+} 
+
+.quickLinkHeading h3 {
+    font-family: Gilroy-Medium;
+    color: #9195A2;
+    font-size: 1.4vw;
+}
+
+.sidebarLink {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: #0A0818;
+    font-family: Gilroy-SemiBold;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 30px #0000001A;
+    border-radius: 2vw;
+    padding: 0.5vw;
+}
+
+.sidebarLink:hover {
+    background-color: #18A84A;
+    cursor: pointer;
+}
+
+.linkActive .sidebarLink{
+    background-color: #3953A4;
+    border-radius: 2vw;
+}
+
+.linkActive .sidebarLink > p {
+    color: white;
+}
+
+.linkActive .sidebarLink > .menuIcon > svg {
+    color: white;
+}
+
+.quickLinksActive .sidebarLink{
+    background-color: #18A84A;
+    border-radius: 2vw;
+}
+
+.quickLinksActive .sidebarLink > p {
+    color: white;
+}
+
+.quickLinksActive .sidebarLink > .menuIcon > svg {
+    color: white;
+}
+
+.menuIcon {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    display: flex;
+}
+
+
+.menuIcon svg {
+    margin: auto;
+    color: #0A0818;
+    font-size: 1.5vw;
+}
+
+.active .menuIcon {
+    background: transparent linear-gradient(180deg, #E639BD 0%, #2164F4 100%) 0% 0% no-repeat padding-box !important;
+}
+
+.active .menuIcon svg {
+    color: white;
+}
+
+.sidebarLink p {
+    font-family: Gilroy-SemiBold;
+    font-size: 1.02vw;
+    color: #0A0818;
+    opacity: 0.9;
+    margin-left: 0.8vw;
+} 
+
+.sidebarLink:hover p, .sidebarLink:hover svg {
+    color: white;
+}
+
+.sidebarPerformanceAndLogoutContainer {
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    font-family: Gilroy-Bold;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.sidebarPerformanceAndLogoutContainer > div {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 20px 30px #00000029;
+    border-radius: 2vw;
+    opacity: 1;
+    padding: 1vh 0;
+    position: relative;
+}
+
+.sidebarPerformanceAndLogoutContainer > div img {
+    margin: auto;
+    width: 9vw;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.sidebarPerformanceAndLogoutContainer h3 {
+    color: #000000;
+}
+
+.value {
+    color: #000000;
+    font-family: Gilroy-Medium;
+    font-size: 2vw;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1vw 0 0 0;
+    text-align: center;
+}
+
+.modal svg {
+    color: white;
+    background: transparent linear-gradient(107deg, #1CA348 0%, #39509A 100%) 0% 0% no-repeat padding-box !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-radius: 50%;
+    padding: 0.5vw;
+    font-size: 2.5vw;
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.modal p {
+    color: #262626;
+    font-family: Poppins-SemiBold;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.btnContainer button {
+    margin-top: 3vh;
+    border-radius: 2vw;
+    padding: 1vh 2vw;
+}
+
+.btnContainer button p {
+    font-family: Poppins-Medium;
+    font-size: 1vw;
+}
+
+.btnContainer button:first-child p{
+    color: #18A84A;
+}
+
+.btnContainer button:first-child {
+    border: solid 0.1vw #18A84A;
+    box-sizing: border-box;
+}
+
+.btnContainer button:last-child {
+    background: transparent linear-gradient(107deg, #1CA348 0%, #39509A 100%) 0% 0% no-repeat padding-box;
+    margin-left: 1vw;
+    padding: 1vh 3vw;
+}
+
+.btnContainer button:last-child p {
+    color: white;
+}
+
+.logout {
+    color: black;
+}
+
+.mainMenus {
+    margin-top: 0;
+}
+
+.mainMenusNav {
+    margin: 0.8vh 0;
+}
+
+.mainMenusNav:hover {
+    background-color: #3953A4;
+}
+
+.mainMenusNav:hover p, .mainMenusNav:hover svg {
+    color: white;
+}
+
+/* ------------------------------ MEDIA QUERY ---------------------------------------------------- */
+
+@media only screen and (max-width: 640px) {
+
+    .modal svg {
+        padding: 2vw;
+        font-size: 12vw;
+    }
+    
+    .modal p {
+        font-size: 3.5vw !important;
+    }
+
+    .btnContainer button p {
+        font-size: 4vw !important;
+    }
+
+    .btnContainer button:last-child {
+        margin-left: 1vw;
+        padding: 1vh 4.5vw;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 100%;
+    }   
+
+    .logo {
+        top: 1.5vh;
+        left: 0;
+        right: 0;
+        position: absolute;
+        margin: auto;
+        width: 30vw;       
+    }
+
+    .backDrop {
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .toggleContainer {
+        position: absolute;
+        height: max-content;
+        margin-top: 0;
+        background: #f3f2f2 0% 0% no-repeat padding-box;
+        padding: 2vh 5vw;
+        z-index: 12;
+        top: 0;
+        left: 0;
+        transform: translateX(-100vw);
+        transition: transform 0.5s ease-out;
+    }  
+
+    .toggleContainer.navOn {
+        transform: translateX(0);
+    }
+
+    .hamburger {
+        display: initial;
+        margin-left: auto;
+        color: #2164F4;
+        font-size: 6.5vw;
+    }
+
+    .sidebarDashboardLink {
+        margin: 0 auto 3vh;
+    }
+
+    .sidebarDashboardImg {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .sidebarDashboardImg img {
+        width: 4vw;
+    }
+
+    .sidebarDashboardLink h3 {
+        font-size: 3.5vw;
+    }
+
+    .quickLinkHeading h3 {
+        font-size: 3.2vw;
+    }
+
+    .sidebarLink {
+        margin-top: 2vw;
+    }
+
+    .menuIcon {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .sidebarLink svg {
+        font-size: 4vw ;
+    }
+
+    .sidebarLink p {
+        font-size: 3.5vw !important;
+    }
+
+    .sidebarPerformanceAndLogoutContainer {
+        margin-top: 5vh;
+    }
+
+    .sidebarPerformanceAndLogoutContainer > div h3 {
+        font-size: 4vw;
+        letter-spacing: 0.4vw;
+    }
+
+    .sidebarPerformanceAndLogoutContainer > div img {
+        margin-top: auto;
+        width: 40vw;
+    }
+
+    .value {
+        width: 14vw;
+        height: 14vw;
+        padding: 5vw 0 0 0;
+    }
+
+    .logout {
+        margin-top: 5vh;
+    }
+                
+}
+
+.backDrop {
+    background-color: rgba(128, 128, 128, 0.781);
+    border-radius: 3vw;
+}

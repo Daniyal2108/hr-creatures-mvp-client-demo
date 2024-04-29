@@ -1,0 +1,375 @@
+.rightBodyContainer {
+  width: 95%;
+  height: 95%;
+}
+
+.content {
+  width: 100%;
+  height: 85%;
+  background: #ffffff2f 0% 0% no-repeat padding-box;
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  box-shadow: 10px 20px 30px #00000029;
+  border-radius: 2vw;
+  padding: 1vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailsContainer {
+  /* height: 65vh; */
+  /* position: relative; */
+  overflow: hidden;
+  height: max-content;
+  width: 35vw;
+  border-radius: 4vh;
+  padding: 4vh 3vw;
+  background-color: transparent;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.skeleotn {
+  height: 45vh;
+  overflow: hidden;
+}
+
+.detailsContainer h1 {
+  font-size: 4vh;
+  font-family: "Poppins-bold";
+  padding-block: 1.3vh;
+}
+.detailsContainer img {
+  width: 8vw;
+  border-radius: 50%;
+  height: 8vw;
+  border: 0.5vh #2164f4 solid;
+}
+
+.formInput {
+  width: 100%;
+  height: 9.1vh;
+  position: relative;
+}
+
+.formInput label {
+  font-family: Gilroy-SemiBold;
+  font-size: 1.1vw;
+  background: transparent linear-gradient(91deg, #1CA348 0%, #39509A 100%) 0% 0% no-repeat padding-box;
+  border-radius: 2vw;
+  padding: .1vh 1vw;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 1vw;
+}
+
+.formInput input {
+  width: 100%;
+  background-color: #FFFFFF;
+  height: 5vh;
+  border-radius: 2vw;
+  padding: 1vw;
+  margin-top: 2vh;
+  font-size: 1.1vw;
+  font-family: Gilroy-SemiBold;
+}
+
+.formInput input:focus {
+  outline: none;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.imageContainerOnEditDetails {
+  justify-content: center;
+}
+
+.imageContainerContent {
+  position: relative;
+}
+
+.imageOnEditDetails {
+  margin: 0 auto;
+}
+
+.button {
+  margin-top: 2vh;
+  background-color: #2164f4;
+  width: 12vw;
+  border-radius: 3vh;
+}
+
+.showButton {
+  position: absolute;
+  right: 0;
+  top: 2.5vh;
+  box-shadow: none;
+  color: #2164f4;
+}
+
+.showButtonOnEditDetails {
+  position: absolute;
+  right: 0;
+  top: 0vh;
+  box-shadow: none;
+  color: #2164f4;
+}
+
+.formContainer {
+  position: relative;
+}
+
+.updateButton {
+  margin-top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 8vw;
+  height: 6vh;
+}
+
+.inputLabel {
+  font-family: Gilroy-Regular;
+  position: absolute;
+  top: -2.5vh;
+  left: 1vw;
+  z-index: 1;
+  color: white;
+  background: transparent linear-gradient(91deg, #e639bd 0%, #2164f4 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 2vw;
+  padding: 0.2vh 1vw;
+  opacity: 1;
+  font-size: 1.7vh;
+}
+
+.input {
+  display: flex;
+  background: #fff;
+  box-shadow: 10px 20px 30px #00000029;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  opacity: 1;
+  border-radius: 3vw;
+  align-items: center;
+  padding: 3vh 1.5vw;
+  width: 100%;
+  height: 6vh;
+  font-size: 1.8vh;
+}
+
+.inputContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.updateFormInput {
+  border: none;
+  position: relative;
+  margin-block: 1.8vh;
+  width: 90%;
+}
+
+.fname_and_lname {
+  position: relative;
+  border: none;
+  margin-block: 3vh;
+  width: 40%;
+}
+
+.errorTextOnEditDetails {
+  color: red;
+  font-size: 1.7vh;
+}
+
+.errorText {
+  color: red;
+  font-size: 1.7vh;
+  margin-top: 2vh;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins-semibold";
+  /* padding: 0; */
+  /* background-color: grey; */
+}
+.modal p {
+  font-weight: bold;
+  font-size: 2.5vh;
+  margin-block: 2vh;
+  text-align: center;
+}
+.modal svg {
+  background: transparent linear-gradient(134deg, #e639bd 0%, #2164f4 100%) 0%
+    0% no-repeat padding-box;
+  height: 8vh;
+  width: 8vh;
+  fill: white;
+  border-radius: 50%;
+  padding: 1.5vh;
+}
+
+.modalbtn {
+  background: rgba(100, 100, 111, 0.2)
+    linear-gradient(108deg, #e639bd 0%, #2164f4 100%) 0% 0% no-repeat
+    padding-box;
+
+  border-radius: 2vw;
+  width: 8vw;
+  height: 6vh;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 2vh auto;
+  background-color: #FFFFFF;
+  border-radius: 3vw;
+  padding: 1vw;
+}
+
+.tab svg {
+  font-size: 2vw;
+}
+
+.tab h3 {
+  color: #0A0818;
+  font-family: Poppins-SemiBold;
+  font-size: 1vw;
+}
+
+.photo {
+  position: absolute;
+  top: 0;
+  height: 14vh;
+  width: 8vw;
+  opacity: 0;
+  z-index: 9;
+}
+
+.cameraIcon {
+  position: absolute;
+  bottom: 1vh;
+  right: .4vw;
+  font-size: 2vw;
+  color: #76757E;
+  z-index: 1;
+}
+
+.form {
+  height: 45vh;
+  overflow: auto;
+}
+
+.form::-webkit-scrollbar {
+  display: none;
+}
+
+.updateBtn {
+  background-color: #18A84A;
+  box-shadow: 0 2.0833333333333335vw 2.0833333333333335vw #18A84A4D;
+  border-radius: 2vw;
+  padding: .8vh 2vw;
+  color: white;
+  font-family: Gilroy-SemiBold;
+  font-size: 1.1vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.backArrow {
+  font-size: 1vw;
+}
+
+.error {
+  color: red;
+  font-family: Poppins-SemiBold;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 9;
+}
+
+.modal {
+  border: solid #3953A4 0.5vw;
+  height: 32vh;
+  width: 25vw;
+}
+
+.modal svg {
+  color: white;
+  background: #3953A4!important;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-radius: 50%;
+  padding: 0.5vw;
+  font-size: 2.5vw;
+  margin: auto;
+  margin-bottom: 2vh;
+}
+
+.modal p {
+  color: #262626;
+  font-family: Poppins-SemiBold;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.modal button {
+  color: #FFFFFF;
+  font-family: Gilroy-Bold;
+  background-color: #0A0818;
+  font-size: 1.2vw;
+  width: max-content;
+  padding: .2vw 1vw;
+  border-radius: 2vw;
+  position: absolute;
+  margin: auto;
+  margin-top: 1vh;
+  left: 0;
+  right: 0;
+
+}
+
+.navigationBtn {
+  color: #FFFFFF;
+  font-family: Gilroy-Bold;
+  background-color: #0A0818;
+  font-size: 1.2vw;
+  width: max-content;
+  padding: .2vw 1vw;
+  border-radius: 2vw;
+  position: absolute;
+  margin: auto;
+  margin-top: 1vh;
+  left: 0;
+  right: 0;
+
+}
+
+.error {
+  color: red;
+  font-size: 1vw;
+  font-family: Poppins-SemiBold;
+}
